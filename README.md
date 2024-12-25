@@ -1,4 +1,4 @@
-# ProShop
+# ProShop MERN App
 ProShop is a project built with the MERN full stack. ProShop is an e-commerce web app focused on tech merchandise.
 
 ## MERN Full Stack

@@ -1,5 +1,19 @@
-# Ignore environment variables
-.env
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Ignore all log files
-*.log
+# environment
+.env*
+
+# testing
+/coverage
+
+# output
+/build
+
+# OS
+.DS_Store
+ 
+# logs
+*.log*

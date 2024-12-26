@@ -18,31 +18,27 @@
 
 ## Features
 
-    Full-featured shopping cart with quantity
+    Dynamic shopping cart.
 
-    Product reviews and ratings
+    User authentication, profile, order history.
 
-    Top products carousel
+    User ratings and reviews (purhase verification).
 
-    Product pagination
+    UI created with React components.
 
-    Product search feature
+    Product pagination with carousel of top items.
 
-    User profile with orders
+    Product search & filter functionality.
 
-    Admin product management
+    Screens for admin user, product, and order management.
 
-    Admin user management
+    Management-verified deliveries.
 
-    Admin Order details page
+    Checkout process (shipping, payment method, etc).
 
-    Mark orders as delivered option
+    Card payments via PayPal API (developer mode).
 
-    Checkout process (shipping, payment method, etc)
-
-    PayPal / credit card integration
-
-    Custom database seeder script
+    Product database seeded via custom script.
 
 ## Usage
 

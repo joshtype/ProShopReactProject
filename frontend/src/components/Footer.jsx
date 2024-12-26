@@ -15,8 +15,14 @@ const Footer = () => {
                 <p>ProShop by Josh Gregory &copy; { currYear }</p>
                 <hr />
                 <p>
-                    Josh Gregory's GitHub: <a href="https://github.com/joshtype/ProShopReactProject" target="_blank">joshtype</a><br />
-                    Source repo: <a href="https://github.com/bradtraversy/proshop-v2" target="_blank">proshop-v2</a>
+                    Josh Gregory's GitHub: &nbsp;
+                    <a href="https://github.com/joshtype/ProShopReactProject" target="_blank" rel="noreferrer">
+                      joshtype</a>
+                </p>
+                <p>
+                    Source repo: &nbsp; 
+                    <a href="https://github.com/bradtraversy/proshop-v2" target="_blank" rel="noreferrer">
+                       proshop-v2</a>
                 </p>
             </Col>
         </Row>

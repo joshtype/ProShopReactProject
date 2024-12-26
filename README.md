@@ -65,3 +65,6 @@ App repo: https://github.com/joshtype/ProShopReactProject.
 Based on project by Brad Traversy at Udemy.com: https://www.udemy.com/course/mern-ecommerce/.
 
 Original repo: https://github.com/bradtraversy/proshop-v2.
+
+Navbar logo and icon:
+shutterstock.com - 2193560861

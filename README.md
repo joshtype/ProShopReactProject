@@ -1,55 +1,67 @@
 # ProShop MERN App
-ProShop is a project built with the MERN full stack. ProShop is an e-commerce web app focused on tech merchandise.
-
+    ProShop is a project app built using the MERN full stack. ProShop simulates an e-commerce web app.
+    
 ## MERN Full Stack
-M: MongoDB
+    M: MongoDB
 
-E: Express.js
+    E: Express.js
 
-R: React
+    R: React
 
-N: Node.js
+    N: Node.js
 
 ## Other Technologies
-PayPal developer API
 
-Mongoose
+    PayPal developer API
+
+    Mongoose
 
 ## Features
-Full-featured shopping cart with quantity
 
-Product reviews and ratings
+    Full-featured shopping cart with quantity
 
-Top products carousel
+    Product reviews and ratings
 
-Product pagination
+    Top products carousel
 
-Product search feature
+    Product pagination
 
-User profile with orders
+    Product search feature
 
-Admin product management
+    User profile with orders
 
-Admin user management
+    Admin product management
 
-Admin Order details page
+    Admin user management
 
-Mark orders as delivered option
+    Admin Order details page
 
-Checkout process (shipping, payment method, etc)
+    Mark orders as delivered option
 
-PayPal / credit card integration
+    Checkout process (shipping, payment method, etc)
 
-Custom database seeder script
+    PayPal / credit card integration
+
+    Custom database seeder script
 
 ## Usage
-Users must create an account and are authenticated at login. User data is stored on a cloud DB.
-Data includes contact info, payment info, and order histories. Users can view items for sale,
-search & filter items, add items to a current order cart, purchase items using PayPal (using
-PayPal's developer mode), and leave a rating and review of purchased items (one rating and
-review per item purchased).
+
+    Users can create an account and are authenticated at login. User data is stored on a cloud DB.
+    Data includes contact info, payment info, and order histories. Users can view items for sale,
+    search & filter items, add items to a current order cart, purchase items using PayPal (using
+    PayPal's developer mode), and leave a rating and review of purchased items (one rating and
+    review per item purchased).
+
+## Author
+
+    Josh Gregory, Dec 2024 - Jan 2025.
+
+    GitHub: https://github.com/joshtype
+
+    App repo: https://github.com/joshtype/ProShopReactProject.
 
 ## Credit
-Brad Traversy 
-https://www.udemy.com/course/mern-ecommerce/
-https://github.com/bradtraversy/proshop-v2
+
+    Based on project by Brad Traversy at Udemy.com: https://www.udemy.com/course/mern-ecommerce/.
+
+    Original repo: https://github.com/bradtraversy/proshop-v2.

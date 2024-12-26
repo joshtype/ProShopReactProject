@@ -18,7 +18,7 @@
 
 ## Features
 
-    Dynamic shopping cart.
+    Dynamic product inventory & shopping cart.
 
     User authentication, profile, order history.
 

@@ -49,7 +49,7 @@ Josh Gregory:
 * My GitHub: https://github.com/joshtype
 * App Repo:  https://github.com/joshtype/ProShopReactProject
 
-## Credit
+## Credits
 
 * Based on project by Brad Traversy: https://github.com/bradtraversy/proshop-v2
 * Navbar logo and icon (edited): Shutterstock ID: 2193560861

@@ -11,20 +11,27 @@ Josh Gregory:
     
 ## MERN Full Stack
 
-* M: MongoDB        - NoSQL cloud DB
-* E: Express JS     - web framework
-* R: React JS       - frontend UI
-* N: Node JS        - web server
+* *M*:
+    * MongoDB NoSQL cloud DB
+* *E*:
+    * Express JS web framework
+* *R*:
+    * React JS frontend UI
+* *N*:
+    * Node JS web server
 
 ## Other Technologies
 
-* Mongoose          - data modeling 
-* Redux             - state management
-* PayPal dev API    - payment processing 
+* Mongoose
+    * Data modeling, manipulation, CRUD ops
+* Redux 
+    * State management
+* PayPal dev API
+    * Electronic payment processing 
 
 ## Architecture:
 
-Client React UI <--> Express JS framework <--> Node JS server <-Mongoose-> MongoDB
+* Client React UI <---> Express JS framework <---> Node JS server <-Mongoose-> MongoDB
 
 ## Features
 
@@ -51,5 +58,5 @@ per verified purchased items).
 
 ## Credits
 
-* Based on project by Brad Traversy: https://github.com/bradtraversy/proshop-v2
-* Navbar logo and icon (edited): Shutterstock ID: 2193560861
+* Based on project by Brad Traversy: https://github.com/bradtraversy/proshop-v2.
+* Navbar logo and icon edited from Shutterstock ID: 2193560861.

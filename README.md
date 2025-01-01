@@ -1,68 +1,58 @@
 # ProShop MERN App
 
-ProShop is a project app built using the MERN full stack. ProShop simulates an e-commerce web app.
+ProShop is a project app built using the MERN full stack. ProShop simulates an e-commerce web app
+with payment functionality via PayPal developer API.
     
 ## MERN Full Stack
 
-1. M: MongoDB
-2. E: Express JS
-3. R: React JS
-4. N: Node JS
-
-Architecture:
-Client via React UI <--> Express JS web framework <--> Node JS web server (Mongoose) <--> MongoDB
+* M: MongoDB
+* E: Express JS
+* R: React JS
+* N: Node JS
 
 ## Other Technologies
 
-1. Mongoose 
+* Mongoose data modeling
+* Redux state management
+* PayPal developer API 
+
+## Architecture:
+
+Client (React UI) <--> Express JS (web framework) <--> Node JS web server (via Mongoose) <--> MongoDB (database)
 
 ## Features
 
-Dynamic product inventory & shopping cart.
-
-User authentication, profile, order history.
-
-User ratings and reviews (purhase verification).
-
-UI created with React components.
-
-Product pagination with carousel of top items.
-
-Product search & filter functionality.
-
-Screens for admin user, product, and order management.
-
-Management-verified deliveries.
-
-Checkout process (shipping, payment method, etc).
-
-Card payments via PayPal API (developer mode).
-
-Product database seeded via custom script.
-
-And more!
+* Fast UI via React JS with pagination via React Router.
+* Modern UI styling via React custom Bootstrap CSS.
+* Dynamic product inventory & order carts.
+* Data management via Mongoose & Node JS.
+* Product database seeded via custom script.
+* User authentication, user profiles, order histories.
+* User ratings & reviews (one per verified purchased item).
+* Product searching with filter functionality.
+* Admin management screens for orders, payments, users.
+* Checkout process (payment, shipping, order state).
+* Electronic payments via PayPal API (developer mode).
+* more...
 
 ## Usage
 
 Users can create an account and are authenticated at login. User data is stored on a cloud DB.
 Data includes contact info, payment info, and order histories. Users can view items for sale,
-search & filter items, add items to a current order cart, purchase items using PayPal (using
-PayPal's developer mode), and leave a rating and review of purchased items (one rating and
-review per item purchased).
+search & filter items, add items to a current order cart, purchase items using PayPal (in
+developer mode), and submit a rating for purchased items (users are limited to one rating 
+per verified purchased items).
 
 ## Author
 
-Josh Gregory, Dec 2024 - Jan 2025.
-
-GitHub: https://github.com/joshtype
-
-App repo: https://github.com/joshtype/ProShopReactProject.
+Josh Gregory:
+* My GitHub: https://github.com/joshtype
+* App Repo:  https://github.com/joshtype/ProShopReactProject
 
 ## Credit
 
-Based on project by Brad Traversy at Udemy.com: https://www.udemy.com/course/mern-ecommerce/.
+Based on project by Brad Traversy:
+* https://github.com/bradtraversy/proshop-v2
 
-Original repo: https://github.com/bradtraversy/proshop-v2.
-
-Navbar logo and icon:
-shutterstock.com - 2193560861
+Navbar logo and icon (edited):
+* Shutterstock ID: 2193560861

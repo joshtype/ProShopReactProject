@@ -37,10 +37,11 @@ Josh Gregory:
 
 * Fast SPA via React JS with pagination via React Router.
 * Modern UI styling via React custom Bootstrap CSS.
-* Dynamic product inventory & order carts.
 * Data management via Mongoose & Node JS.
 * Product database seeded via custom script.
-* User authentication, user profiles, order histories.
+* Dynamic product inventory & order carts.
+* User authentication via JSON token HTTP-only cookies.
+* User profiles & order histories.
 * User ratings & reviews (one per verified purchased item).
 * Product searching with filter functionality.
 * Admin management screens for orders, payments, users.

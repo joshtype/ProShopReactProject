@@ -1,5 +1,8 @@
-// HomeScreen screen to be rendered via React Router
-
+/* 
+ * HomeScreen contains components to be rendered via React Router.
+ * Acts as index.html & loads Product component for each product in DB.
+ * Product component includes Rating component.
+*/
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product';

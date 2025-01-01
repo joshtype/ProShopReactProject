@@ -1,4 +1,4 @@
-// Header component rendered via React Router
+// Header component for each screen rendered via React Router.
 
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';

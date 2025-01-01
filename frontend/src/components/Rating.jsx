@@ -1,4 +1,4 @@
-// Rating component rendered via React Router
+// Rating component for HomeScreen.jsx & ProductScreen.jsx.
 
 import React from 'react';
 import { 

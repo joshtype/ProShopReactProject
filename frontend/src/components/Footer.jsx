@@ -1,4 +1,4 @@
-// Footer component rendered via React Router
+// Footer component for each screen rendered via React Router.
 
 import React from 'react'
 import { Link } from 'react-router-dom';

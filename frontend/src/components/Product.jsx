@@ -1,8 +1,8 @@
-// Product component rendered via React Router
+// Product component for HomeScreen.jsx.
 
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';  // to replace <a> with <Link> & 'to' prop
+import { Link } from 'react-router-dom';  // replace <a> with <Link> & 'to' prop
 import Rating from './Rating';
 
 // Rating props: ratingVal = product.rating, ratingNum = product.numRatings

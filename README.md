@@ -2,6 +2,12 @@
 
 ProShop is a single page application (SPA) built using the MERN full stack. This project app simulates an e-commerce web app
 with payment functionality simulated via PayPal API in developer mode.
+
+## Author
+
+Josh Gregory:
+* My GitHub: https://github.com/joshtype
+* App Repo:  https://github.com/joshtype/ProShopReactProject
     
 ## MERN Full Stack
 
@@ -42,12 +48,6 @@ Data includes contact info, payment info, and order histories. Users can view it
 search & filter items, add items to a current order cart, purchase items using PayPal (in
 developer mode), and submit a rating for purchased items (users are limited to one rating 
 per verified purchased items).
-
-## Author
-
-Josh Gregory:
-* My GitHub: https://github.com/joshtype
-* App Repo:  https://github.com/joshtype/ProShopReactProject
 
 ## Credits
 

@@ -1,3 +1,5 @@
+// Header component rendered via React Router
+
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FaShoppingCart, FaUser } from 'react-icons/fa';

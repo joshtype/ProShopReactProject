@@ -1,29 +1,32 @@
+// Footer component rendered via React Router
+
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
+import githubIcon from '../assets/githubIcon.svg';
 
-// Footer component to be imported by App.js
 const Footer = () => {
-
-  // get current year from datetime obj
-  const currYear = new Date().getFullYear();
+  const currYear = new Date().getFullYear();  // curr year
 
   return (
     <footer>
       <Container>
         <Row>
             <Col className='text-center py-3'>
-                <p>ProShop by Josh Gregory &copy; { currYear }</p>
-                <hr />
+              <hr />
                 <p>
-                    Josh Gregory's GitHub: &nbsp;
-                    <a href="https://github.com/joshtype/ProShopReactProject" target="_blank" rel="noreferrer">
-                      joshtype</a>
+                  Built using MERN stack by Josh Gregory. joshtype: &nbsp;
+                  <Link to="https://github.com/joshtype/ProShopReactProject" target="_blank" rel="noreferrer">
+                    <img src={ githubIcon } alt="GitHub icon" /></Link>.
                 </p>
+
                 <p>
-                    Source repo: &nbsp; 
-                    <a href="https://github.com/bradtraversy/proshop-v2" target="_blank" rel="noreferrer">
-                       proshop-v2</a>
+                  Based on &nbsp;
+                  <Link to="https://github.com/bradtraversy/proshop-v2" target="_blank" rel="noreferrer">
+                    Brad Traversy</Link>.
                 </p>
+
+                <p>&copy; { currYear }</p>
             </Col>
         </Row>
       </Container>

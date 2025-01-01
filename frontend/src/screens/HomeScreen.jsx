@@ -1,3 +1,5 @@
+// HomeScreen screen to be rendered via React Router
+
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product';

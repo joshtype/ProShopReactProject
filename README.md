@@ -4,19 +4,17 @@ ProShop is a project app built using the MERN full stack. ProShop simulates an e
     
 ## MERN Full Stack
 
-M: MongoDB
+1. M: MongoDB
+2. E: Express JS
+3. R: React JS
+4. N: Node JS
 
-E: Express.js
-
-R: React
-
-N: Node.js
+Architecture:
+Client via React UI <--> Express JS web framework <--> Node JS web server (Mongoose) <--> MongoDB
 
 ## Other Technologies
 
-PayPal developer API
-
-Mongoose
+1. Mongoose 
 
 ## Features
 

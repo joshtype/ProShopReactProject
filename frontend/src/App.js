@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from "react-bootstrap";
-import { Outlet } from "react-router-dom";  // render Outlet instead of App
+import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    // Add components to be rendered
+    // Render React Router <Outlet /> instead of <App />
     <>
       <Header />
 

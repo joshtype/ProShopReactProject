@@ -51,8 +51,5 @@ Josh Gregory:
 
 ## Credit
 
-Based on project by Brad Traversy:
-* https://github.com/bradtraversy/proshop-v2
-
-Navbar logo and icon (edited):
-* Shutterstock ID: 2193560861
+* Based on project by Brad Traversy: https://github.com/bradtraversy/proshop-v2
+* Navbar logo and icon (edited): Shutterstock ID: 2193560861

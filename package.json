@@ -1,0 +1,15 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN e-commerce app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Josh Gregory https://github.com/joshtype",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

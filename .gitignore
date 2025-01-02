@@ -1,10 +1,11 @@
 # dependencies
 /node_modules
+/frontend/node_modules
 /.pnp
 .pnp.js
 
-# environment
-.env*
+# environment variables
+.env
 
 # testing
 /coverage
@@ -17,3 +18,6 @@
  
 # logs
 *.log*
+
+# private files
+zdb.txt

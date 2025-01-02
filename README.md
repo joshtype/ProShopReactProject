@@ -24,6 +24,8 @@ Josh Gregory:
 
 * Mongoose
     * Data modeling, manipulation, CRUD ops
+* Axios
+    * Data fetching between frontend & backend
 * Redux 
     * State management
 * PayPal dev API

@@ -1,4 +1,4 @@
-// Simulation of DB used by HomeScreen.jsx & ProductScreen.jsx.
+// Simulation of DB used by Express server API app.get() in server.js.
 const products = [
   {
     _id: '1',

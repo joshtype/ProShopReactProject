@@ -1,8 +1,9 @@
 /*
  * Mongoose schema to model instances of Product entity.
- * Review entity also modeled herein & used by Product.
  * Entity stored as table. Each new instance is a new row.
  * Schema defines data stored in each new row.
+ * Note: Review schema defined for use in Product.
+ * Note: MongoDB creates id (primary key) for each new row.
 */
 import mongoose from "mongoose";
 

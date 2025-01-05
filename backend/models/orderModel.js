@@ -2,6 +2,7 @@
  * Mongoose schema to model instances of Order entity.
  * Entity stored as table. Each new instance is a new row.
  * Schema defines data stored in each new row.
+ * Note: MongoDB creates id (primary key) for each new row.
 */
 import mongoose from "mongoose";
 

@@ -3,6 +3,7 @@
  * Entity stored as table. Each new instance is a new row.
  * Schema defines data stored in each new row.
  * Note: User table has no foreign key.
+ * Note: MongoDB creates id (primary key) for each new row.
 */
 import mongoose from "mongoose";
 

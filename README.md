@@ -23,7 +23,9 @@ Josh Gregory:
 ## Other Technologies
 
 * Mongoose
-    * Data modeling, manipulation, CRUD ops
+    * Data modeling, manipulation, CRUD queries
+* Compass
+    * Database connection
 * Axios
     * Data fetching between frontend & backend
 * Redux 

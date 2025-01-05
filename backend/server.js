@@ -8,33 +8,37 @@
 */
 import express from 'express';              // to init BE server
 import dotenv from 'dotenv';                // to config node env & port
-import products from './data/products.js';  // BE modules must use .js (not React .jsx)
+dotenv.config();                            // init config obj
+import connectDB from './config/db.js';     // to connect to MongoDB
+import products from './data/products.js';  // must use .js (not React jsx) in backend files
 
-dotenv.config();                        // init config obj
-const port = process.env.PORT || 5000;  // use config to define ports
+// init port from .env to var
+const port = process.env.PORT || 5000;  // 8k or 5k
 
-// init server & define API routes using var
+// init MongoDB connection from /config/db.js
+connectDB();  // calls async method & tries to connect
+
+// init server to var & define API routes using var
 const app = express();
 
-// create API route via get() to URL = ".../"
+// API route to URL = ".../"
 app.get("/", (req, res) => { 
-    // define response to get(), shown in UI
+    // define response to get() to show in UI
     res.send("API is running...");  // will load React UI
 });
 
-// create API route to URL = ".../api/products"
+// API route to URL = ".../api/products"
 app.get("/api/products", (req, res) => {
     res.json(products);  // send JSON response to UI
 });
 
-// create API route to URL = ".../api/products/id"
+// API route to URL = ".../api/products/id"
 app.get("/api/products/:id", (req, res) => {
     // find product._id that matches placeholder :id in URL
     const product = products.find((p) => p._id === req.params.id);
     res.json(product);  // send JSON response to UI
 });
 
-// listen at port for data sent, define behavior 
 app.listen(port, () => 
     console.log(`Server running at port ${port}.`) 
 );
